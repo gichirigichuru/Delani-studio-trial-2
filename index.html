@@ -71,12 +71,16 @@
  </div>
  <div class="container-fluid contact">
 <h2>CONTACT US</h2>
-<input type="text" id="name" name="name" placeholder="Name..."required>
-<input type="email" id="email" name="email" placeholder="Email..."
-required>
-<textarea rows="12" name="message" id="message"
-placeholder="Your message here..."></textarea>
-<button type="button" class="btn btn-success mx-auto d-block">Submit</button>
+<form action="">
+<div class="form-group form-inline">
+    <input type="text" class="form-control" placeholder = "Name...." name="MERGE1" id="MERGE1" size="25" value="">
+    <input type="email" class="form-control"  placeholder = "Email...." autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">
+  </div>
+  <div class="form-group">
+    <textarea class="form-control" rows="8" id="comment" placeholder = "Your message here...."></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary col-md-1">Submit</button>
+</form>
 </div>
 
 <img src="assets/social_icons/twitter.png" alt="twitter">
