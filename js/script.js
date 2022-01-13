@@ -21,7 +21,7 @@ $(document).ready(function(){
     })
     $("#what3").click(function(){
         $(this).hide()
-        $("#i").show()
+        $("#icon3").show()
     })
 
 
